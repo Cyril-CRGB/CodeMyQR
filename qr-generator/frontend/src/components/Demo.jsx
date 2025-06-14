@@ -25,7 +25,7 @@ export default function Demo() {
   };
 
   return (
-    <section className="qr-demo" id="demo">
+    <section className="qr-demo" id="create">
       <h2>Try It Now</h2>
       <div className="demo-container">
         <input
@@ -40,7 +40,7 @@ export default function Demo() {
           onClick={generate}
           disabled={loading}
         >
-          {loading ? 'Generating…' : 'Generate QR Code'}
+          {loading ? 'Generating…' : 'Create your QR Code'}
         </button>
 
         <div className="qr-display">

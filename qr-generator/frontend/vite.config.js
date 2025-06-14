@@ -11,5 +11,8 @@ export default defineConfig({
     allowedHosts: [
       '5173-cyrilcrgb-codemyqr-uq0gu0mdn2k.ws-eu120.gitpod.io'
     ]
+  },
+  define: {
+    'process.env': {}
   }
 })

@@ -4,7 +4,7 @@ export default function Navbar() {
       <nav>
         <div className="logo">Code My QR</div>
         <ul className="nav-links">
-          {['Home','Features','Demo','About'].map(a => (
+          {['Home','Features','Create','About'].map(a => (
             <li key={a}><a href={`#${a.toLowerCase()}`}>{a}</a></li>
           ))}
         </ul>
