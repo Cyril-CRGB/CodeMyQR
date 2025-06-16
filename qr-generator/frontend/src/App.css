@@ -8,11 +8,12 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #0a0a0f;
+    background: #1a0f0a;/*#0a0a0f*/
     color: #ffffff;
     overflow-x: hidden;
     line-height: 1.6;
 }
+
 
 /* Animated background grid */
 .bg-grid {
